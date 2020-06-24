@@ -8,17 +8,17 @@ public class AffichageInverse {
 		
 		// Afficher l’ensemble des éléments du tableau grâce à une boucle
 		for (int i=0; i<array.length; i++ ) {
-			System.out.println(array[i]);
+			System.out.print(array[i] + " ");
 		}
 		
-		System.out.println("\n -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- \n");
+		System.out.println("\n -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- \n");
 		
 		// Afficher l’ensemble des éléments dans l’ordre inverse du tableau
 		for (int i =(array.length - 1); i >= 0; i-- ) {
-			System.out.println(array[i]);
+			System.out.print(array[i] + " ");
 		}
 		
-		System.out.println("\n -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- \n");
+		System.out.println("\n -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- \n");
 		
 		// Créer un tableau arrayCopy et copier tous les éléments d'array dans arrayCopy
 		int [] arrayCopy = new int [array.length];
@@ -26,7 +26,7 @@ public class AffichageInverse {
 		for (int i=0; i<array.length; i++ ) {
 			
 			arrayCopy[i] = array[i];
-			System.out.println(arrayCopy[i]);
+			System.out.print(arrayCopy[i] + " ");
 		}
 	}
 }

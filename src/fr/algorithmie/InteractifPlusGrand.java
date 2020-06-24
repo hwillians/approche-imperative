@@ -24,7 +24,7 @@ public class InteractifPlusGrand {
 				temoinI = i+1;
 			}
 		}
-		System.out.println("Le plus grand élémént saisi " + temoin + " dans la position : " + temoinI);
+		System.out.println("Le plus grand élémént saisi " + temoin + " dans la position n° : " + temoinI);
 	}
 
 }

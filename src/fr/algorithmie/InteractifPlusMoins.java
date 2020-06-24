@@ -8,7 +8,6 @@ public class InteractifPlusMoins {
 		// choisit un nombre aléatoire entre 1 et 100
 		int random = (int)(Math.random()*100);
 		int temoin = 1;
-		System.out.println(random);
 		// puis demande à l’utilisateur de trouver ce nombre en lui indiquant s’il est au-dessus ou en dessous du nombre,
 		Scanner scanner = new Scanner(System.in);
 		

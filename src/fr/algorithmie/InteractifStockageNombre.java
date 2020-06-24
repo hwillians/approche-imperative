@@ -14,14 +14,14 @@ public class InteractifStockageNombre {
 		int [] tab = new int [0];
 		boolean sortie = true;
 		while (sortie) {
-			System.out.println("Choisissez une option dans le menu \n1. Ajouter un nombre \n2. Afficher les nombres existants. \n");
+			System.out.println("\n Choisissez une option dans le menu \n1. Ajouter un nombre \n2. Afficher les nombres existants. \n");
 			int nb = scanner.nextInt();
 		
 			switch (nb) {
 				case (1) :
 				// Si l’utilisateur sélectionne l’option 1, le programme demande un nombre à l’utilisateur puis l’ajoute à un tableau.
 				
-					System.out.println("Saissez un nombre à ajuter au tableau");
+					System.out.println("\n Saissez un nombre à ajuter au tableau");
 					int nombre = scanner.nextInt();
 					int[] tabTemp = new int [tab.length+1];
 					for (int i = 0; i < tabTemp.length - 1; i++) {
@@ -34,7 +34,7 @@ public class InteractifStockageNombre {
 				case (2) :
 				// Si l’utilisateur sélectionne l’option 2, le programme affiche le contenu du tableau.
 					for (int i=0; i<tab.length; i++) {
-						System.out.println(tab[i]+"\n");
+						System.out.print(tab[i] + " ");
 					}
 				break;
 				default:

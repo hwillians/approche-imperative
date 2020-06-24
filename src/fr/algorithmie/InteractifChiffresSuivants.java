@@ -7,11 +7,11 @@ public class InteractifChiffresSuivants {
 	public static void main(String[] args) {
 		// Ecrire un programme qui demande un nombre à l’utilisateur puis qui affiche les 10 nombres suivants. 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Veuillez saisir un nombre ");
+		System.out.println("Veuillez saisir un nombre \n");
 		int nb = scanner.nextInt();
 	
 		for (int i=1; i <=10;i++ ) {
-			 System.out.println((i+nb)+",");
+			 System.out.print((i+nb)+", ");
 		}
 		
 	}

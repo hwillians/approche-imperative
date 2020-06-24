@@ -16,7 +16,7 @@ public class FirstLast6 {
 		if (array.length>0 && (array[0] == 6 || array[array.length-1] == 6 )) {
 			bool = true;
 		}
-		System.out.println(bool);
+		System.out.println("Le premier élément ou le dernier élément du tableau vaulent 6 : " + bool);
 	}
 
 }

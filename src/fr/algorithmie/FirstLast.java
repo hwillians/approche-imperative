@@ -15,7 +15,7 @@ public class FirstLast {
 		if (array.length>0 && array[0] == array[array.length-1]) {
 			bool = true;
 		}
-		System.out.println(bool);
+		System.out.println(" le premier et le dernier élément du tableau ont la même valeur : " + bool);
 	}
 
 }

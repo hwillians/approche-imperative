@@ -17,7 +17,7 @@ public class ComparaisonTableau {
 			}
 		}
 		
-		System.out.println("il y a " + temoin + " élément"+ (s = temoin <2 ? " " : "s ") +"en commun");
+		System.out.println("Les tableaux precedents possedent " + temoin + " élément"+ (s = temoin <2 ? " " : "s ") +"en commun");
 	}
 
 }
