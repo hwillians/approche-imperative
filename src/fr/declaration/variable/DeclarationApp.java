@@ -13,17 +13,17 @@ public class DeclarationApp {
 		char c = 'c';
 		boolean bool = true;
 		String str = "hey";
-		
+
 		System.out.println(d);
-		
+
 		String randomString = "Voici le résultat d’un calcul : 1+5=6";
-		
+
 		System.out.println(randomString);
-		
+
 		String randomString2 = "Voici le résultat d’un calcul : \n 1+5=6";
-		
+
 		System.out.println(randomString2);
-		
+
 		System.out.println("Salut");
 		System.out.println(b);
 		System.out.println(s);
@@ -33,7 +33,7 @@ public class DeclarationApp {
 		System.out.println(c);
 		System.out.println(bool);
 		System.out.println(str);
-		
+
 	}
 
 }
