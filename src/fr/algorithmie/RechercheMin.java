@@ -16,7 +16,7 @@ public class RechercheMin {
 			}
 		}
 		
-		System.out.println("Le plus grand élémént du tableau est " + temoin + " avec l'index : " + temoinI);
+		System.out.println("Le plus grand élémént du tableau est : " + temoin + " avec l'index : " + temoinI);
 	}
 
 }

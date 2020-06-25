@@ -11,7 +11,7 @@ public class SommeDeTableaux {
 		int [] arraySomme = new int [array1.length];
 			for (int i=0; i<array1.length; i++ ) {
 				arraySomme[i] = array1[i] + array2[i];
-				System.out.println(arraySomme[i]);
+				System.out.print(arraySomme[i] + " ");
 		}
 
 	}

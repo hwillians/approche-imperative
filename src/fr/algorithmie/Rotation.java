@@ -16,7 +16,7 @@ public class Rotation {
 			
 		}
 		for (int i = 0; i<l ; i++) {
-			System.out.println(newArray[i]);
+			System.out.print(newArray[i] + " ");
 		}
 	}
 }

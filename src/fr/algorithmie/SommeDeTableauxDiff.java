@@ -14,7 +14,7 @@ public class SommeDeTableauxDiff {
 			
 			arraySomme[i] = array1[i] + array2[i];
 					
-			System.out.println(arraySomme[i]);
+			System.out.print(arraySomme[i] + " ");
 		}
 
 	}
