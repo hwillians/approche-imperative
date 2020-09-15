@@ -3,7 +3,7 @@ package fr.declaration.variable;
 public class DeclarationApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		byte b = 1;
 		short s = -200;
 		int i = 200;
