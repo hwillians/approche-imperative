@@ -10,16 +10,17 @@ public class ComparaisonTableau {
 		// Ecrire le code permettant de compter le nombre d’éléments en commun dans ces
 		// 2 tableaux
 		int temoin = 0;
-		String s = " ";
 
-		for (int i = 0; i < array2.length; i++) {
-			if (array1[i] == array2[i]) {
-				temoin++;
+		for (int i : array1) {
+			for (int j : array2) {
+				if (i == j) {
+					temoin++;
+				}
 			}
 		}
 
-		System.out.println("Les tableaux precedents possedent " + temoin + " élément" + (s = temoin < 2 ? " " : "s ")
-				+ "en commun");
+		System.out.println(
+				"Les tableaux precedents possedent " + temoin + " élément" + (temoin < 2 ? " " : "s ") + "en commun");
 	}
 
 }

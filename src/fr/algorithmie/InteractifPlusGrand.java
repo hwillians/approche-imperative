@@ -8,11 +8,11 @@ public class InteractifPlusGrand {
 		// Ecrire un programme qui demande 10 nombres à un utilisateur et qui affiche le
 		// plus grand de ces nombres.
 		int[] nombres = new int[10];
-		for (int i = 1; i <= 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			Scanner scanner = new Scanner(System.in);
-			System.out.println("Veuillez saisir le nombre N° " + i);
+			System.out.println("Veuillez saisir le nombre N° " + (i + 1));
 			int nb = scanner.nextInt();
-			nombres[i - 1] = nb;
+			nombres[i] = nb;
 		}
 		int temoin = 0;
 		int temoinI = 0;

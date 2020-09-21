@@ -15,7 +15,7 @@ public class InteractifStockageNombre {
 		boolean sortie = true;
 		while (sortie) {
 			System.out.println(
-					"\n Choisissez une option dans le menu \n1. Ajouter un nombre \n2. Afficher les nombres existants. \n");
+					"Choisissez une option dans le menu \n1. Ajouter un nombre \n2. Afficher les nombres existants. \n");
 			int nb = scanner.nextInt();
 
 			switch (nb) {

@@ -10,9 +10,11 @@ public class Rotation {
 		int l = array.length;
 		int[] newArray = new int[l];
 
-		for (int i = 0; i < (l / 2); i++) {
-			newArray[i] = array[l - i - 1];
-			newArray[l - i - 1] = array[i];
+		for (int i = 1; i < l; i++) {
+			if (i == l - 1) {
+				newArray[0] = array[l - 1];
+			}
+			newArray[i] = array[i - 1];
 
 		}
 		for (int i = 0; i < l; i++) {
